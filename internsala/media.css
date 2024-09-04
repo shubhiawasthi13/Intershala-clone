@@ -1,0 +1,76 @@
+@media screen and (max-width:768px) {
+    .nav-link{
+        display: none;
+    }
+    #menu-btn{
+        display: initial;
+    }
+    .search-bar{
+        position: absolute;
+        top: 90px;
+        right: 60px;
+        left: 20px;
+        border: 1px solid rgb(139, 139, 139);
+        width: 80vw;
+        padding: 10px;
+        border-radius: 4px;
+        margin: auto;
+    }
+    .close-btn{
+        left: 400px;
+    }
+    .location-container{
+        display: none;
+    }
+    form select{
+       width: 80%;
+    }
+    .trending h2{
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+
+    .internship .categories{
+        margin: 0 40px;
+        overflow-x: scroll;
+
+    }
+  .internship .categories a{
+  white-space: nowrap;
+  height: 28px;
+
+  }
+  .desc-box{
+    display: block;
+}
+.para-pad{
+    padding-bottom: 50px;
+}
+.footer-container{
+   display: block;
+   padding: 30px 0;
+}
+.content-left{
+  width: 70%;
+  margin: auto;
+}
+.content-right a{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+@media screen and (max-width:400px) {
+    .close-btn{
+        left: 300px;
+    }
+    .trend-banner .trend-item{
+        min-width: 300px;
+    }
+    .desc-box{
+        display: block;
+    }
+    .para-pad{
+        padding-bottom: 50px;
+    }
+}
+}
